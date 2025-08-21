@@ -61,6 +61,11 @@ class LinkedList {
         secondToLast.next = null;
     }
 
+    // This method will delete a node in a specific position
+    public void deleteSpecificPosition(int key) {
+
+    }
+
     public void traverseLinkedList() {
         Node current = head;
         while (current != null) {
